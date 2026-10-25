@@ -1,0 +1,49 @@
+body{
+    background-color: #1e9dbd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+}
+.container{
+    width:90%;
+    max-width:500px;
+    padding:30px;
+    background-color:rgb(174, 174, 190);
+    box-sizing:border-box;
+    border-radius:10px;
+
+}
+
+label{
+    font-size:17px;
+    color:#0c0c0c;
+    margin-bottom:10px;
+    display:block;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:20px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+button{
+    padding:10px;
+    background-color:#007BFF;
+    color:white;
+    border:none;
+    border-radius:20px;
+
+}
+.dashboard{
+    width:100px%;
+    max-width:100%;
+    padding:30px;
+    background-color:rgb(174, 174, 190);
+    box-sizing:border-box;
+    border-radius:50px;
+}

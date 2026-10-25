@@ -1,0 +1,25 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome to your Dashboard</h1>
+        <h3>Welcome to {{username}}!</h3>
+
+        <p>Full Name: {{fullname}}</p>
+        <p>Email: {{email}}</p>
+        <p>Username: {{username}}</p>
+        <p> You have successfully logged in.</p>
+
+        <form action="/logout" method="post">
+            <button type="submit">Logout</button>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welcome to login</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<div class="container">
+    <form action="login" method ="post">
+        <h2>Login Form</h2>
+
+        <div class ="form-control">
+            <label for="username">UserName</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </div>
+
+        <div class ="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+          <button type="submit">Login</button>
+    </form>
+    </div>
+</body>
+</html>
